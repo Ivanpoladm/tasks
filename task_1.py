@@ -8,22 +8,25 @@ from typing import Tuple
 
 # Реализовать функции сложения, вычитания и умножения двух чисел.
 def add_mul(first: float, second: float) -> Tuple[float, float, float]:
-    return ..., ..., ...
+    return first+second, first-second, first*second
 
 
 # Реализовать функции деления, деления нацело и нахождения остатка от деления.
 def div_int_rem(first: float, second: float) -> Tuple[float, float, float]:
-    return ..., ..., ...
+    return first/second, first//second, first%second
 
 
 # Обменять два целочисленных значение с помощью битового xor не используя промежуточноые переменные.
 def xor_swap(first: int, second: int) -> int:
-    return ...
+    return first^=second^=first^=second
 
 
 # Вернуть наименьшее число, используя условный оператор.
 def min_conditional(first: float, second: float) -> float:
-    return ...
+    if first<second
+    return first
+        if second<first
+    return second
 
 
 # Реализовать функции умножения на 2, 8 и 32 с помощью битовых операций сдвига.
